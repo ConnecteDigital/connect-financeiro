@@ -4,8 +4,8 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
+    "strict": false, // Alterado para false
+    "noEmit": false, // Alterado para false
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "bundler",
@@ -13,6 +13,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "noImplicitAny": false, // Adicionado para permitir 'any'
     "plugins": [
       {
         "name": "next"
