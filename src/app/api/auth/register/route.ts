@@ -40,7 +40,7 @@ export async function POST(req: NextRequest) {
         name,
         email,
         password: hashedPassword,
-        phone: phone || null
+        whatsapp: phone || null
       },
       select: {
         id: true,
